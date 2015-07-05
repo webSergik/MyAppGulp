@@ -19,13 +19,13 @@
 
 1. Клонируем к себе в папку проект (внимание точка в конце говорит чтобы клонировать в текущую папку)
 
-git clone https://github.com/webSergik/MyAppGulp.git .
+  git clone https://github.com/webSergik/MyAppGulp.git .
 
 2. Устанавливаем node_modules 
 
-npm install
+  npm install
 
 3. Запускаем вотчер и сервер
 
-gulp
+  gulp
  
