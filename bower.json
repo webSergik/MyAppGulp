@@ -12,9 +12,5 @@
     "public/vendor/",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "fancybox": "^2.1.5",
-    "jquery": "^2.2.2"
-  }
+  ]
 }

@@ -1,7 +1,9 @@
-html
-  head
-    link(rel="stylesheet" href="css/styles.css")
-  body
+extends ../blocks/layout/layout
+block append head
+  +styles('css/styles.css')
+block title
+  title Gulp Bootstrap 4
+block content
   .container
     .row
       .col-sm-4
@@ -16,5 +18,4 @@ html
     button.btn.btn-info-outline(type='button') Info
     button.btn.btn-warning-outline(type='button') Warning
     button.btn.btn-danger-outline(type='button') Danger
-    script(src='vendor/fancybox/lib/jquery-1.9.0.min.js')
-    script(src='vendor/fancybox/source/jquery.fancybox.js')
+    script(src="js/app.js")

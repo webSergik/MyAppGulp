@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync');
 
 gulp.task('jade', function() {
-  gulp.src('app/jade/**/*.jade')
+  gulp.src('app/pages/**/*.jade')
     .pipe(plumber())
     .pipe(jade({
       pretty: true
