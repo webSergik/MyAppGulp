@@ -23,3 +23,9 @@
 2. Устанавливаем node_modules **npm install**
 
 3. Запускаем вотчер и сервер **gulp**
+
+##Запуск с помощью npm
+
+1. npm run start  - development build
+
+2. npm run production - production build
